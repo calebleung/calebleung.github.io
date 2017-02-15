@@ -1,14 +1,17 @@
 html {
     font-family      : sans-serif;
-    background-color : #272822;
-    color            : #f9faf4;
+    background-color : #c8e6c9;
+    color: #1b5e20;
+}
+
+h3 {
+    font-size: 120%;
 }
 
 #header {
     font-family : 'Noto Sans', sans-serif;
     font-size   : 60px;
     text-align  : center;
-    margin-top  : 120px;
 }
 
 #links {
@@ -17,10 +20,110 @@ html {
 
 #links a {
     text-decoration : none;
-    color           : #bfa6a6;
+    color           : #66bb6a;
+    cursor: pointer;
+}
+
+#quote {
+    text-align: center;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.project {
+    position: relative;
+    
+    width: 100%;
+}
+
+.visual.right {
+    text-align: right;
+}
+
+.desc a {
+    text-decoration: none;
+    color: #388e3c;
+}
+.visual {
+    width: 100%;
+}
+
+.autosteam {
+    height: 320px;
+}
+
+.divemaster {
+    height: 512px;
+}
+
+.linkshort {
+    height: 128px;
+}
+
+.ttr {
+    height: 150px;
+}
+
+.projectLinks a {
+    font-size: 90%;
+    font-weight: 300;
+    text-decoration: none;
+    color: #388e3c;
+    font-family : 'Noto Sans', sans-serif;
 }
 
 /*
+.projectContainer {
+    padding-left: 2%;
+}
+
+.projectLTitle {
+    font-size: 120%;
+}
+
+.projectLDesc {
+    font-size: 90%;
+    text-align: justify;
+}
+.projectLLeft {
+    padding-top: 1%;
+    width: 35%;
+    
+    float: left;
+}
+
+.projectRRight {
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 75%;
+}
+
+.projectRTitle {
+    font-size: 120%;
+    width: auto;
+    text-align: right;
+}
+
+.projectRDesc {
+    font-size: 90%;
+    text-align: justify;
+}
+.projectRLeft {
+    padding-top: 1%;
+}
+
+.projectRRight {
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 35%;
+    float: right;
+}
+
+
 #links a.tooltip::before {
     content   : attr(data-tooltip);
     font-size : 12px;
