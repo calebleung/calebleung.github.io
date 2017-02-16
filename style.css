@@ -34,6 +34,14 @@ h3 {
     width: 50%;
 }
 
+h2 {
+    text-decoration: underline;
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+    font-family : 'Noto Sans', sans-serif;
+}
+
 .project {
     position: relative;
     
