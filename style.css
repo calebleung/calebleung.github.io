@@ -1,7 +1,7 @@
 html {
     font-family      : sans-serif;
-    background-color : #c8e6c9;
-    color: #1b5e20;
+    background-color : #2e3136;
+    color: #ffffff;
 }
 
 h3 {
@@ -20,7 +20,7 @@ h3 {
 
 #links a {
     text-decoration : none;
-    color           : #66bb6a;
+    color           : #8a8e94;
     cursor: pointer;
 }
 
